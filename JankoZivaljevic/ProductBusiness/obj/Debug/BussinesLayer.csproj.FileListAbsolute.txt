@@ -1,0 +1,9 @@
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\bin\Debug\ProductBusiness.dll
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\bin\Debug\ProductBusiness.pdb
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\bin\Debug\DataLayer.dll
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\bin\Debug\DataLayer.pdb
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\obj\Debug\BussinesLayer.csproj.AssemblyReference.cache
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\obj\Debug\BussinesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\obj\Debug\BussinesLayer.csproj.CopyComplete
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\obj\Debug\ProductBusiness.dll
+C:\Users\Dell 5530\Desktop\kolokvijumSIprojekat\JankoZivaljevic\ProductBusiness\obj\Debug\ProductBusiness.pdb

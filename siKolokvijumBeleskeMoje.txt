@@ -1,0 +1,50 @@
+- Na pocetku sam isao Continue Without Code, i prvo napravio bazu a tek  onda radim 
+
+- Klik na View pa SQL Server Object Explorer ako mi se ne pokazuje panel sa strane
+
+- Nije vazno gde se kreira baza, o toj putanji ne vodim racuna
+
+- Popunjavam tabelu podacima, moram za svaku kolonu da imam podatke
+
+- Za tabelu ne pisem rucno kod vec u tabeli bukv unosim nazive kolona i tip podataka
+
+- Treba da selektujem Allow Nulls ako je napisano da polje moze biti NULL
+
+- Kad napravim tabelu, u levom cosku kliknem na Update
+
+- Ako zabode Update i nece da je update-uje onda idem na tabelu desni klik New Query i prosledim
+ovaj kod koji je Visual Studio generisao dok sam popunjavao polja
+
+- Kad sam napravio tabelu, idem desni klik na nju pa View Data i tu dodam dva tri reda podataka
+
+- Kad zavrsim to, idem desni klik na tabelu pa view code i taj kod stavim u neki notepad koji treba da predam sa projektom
+
+***********************************
+
+- Idem na File pa Create New Project - Windows Forms App (.NET Framework)
+
+- Project Name i Solution Name ne mora da bude isti
+
+- Promeni naziv Form1 na ono sto se trazi, to radim tako sto idem desni klik bilo gde na Formi pa properties i nadjem Text e tu menjam
+
+- Idem na Solution, desni klik Add -> New Project -> Class Library (.NET Framework)
+
+-Prvo pravim Data Layer, idem na rename Class1
+
+- Onda desni klik na Data Layer -> Add -> New Folder i imenujem ga Models
+
+- Na Models idem Add -> New Item -> Class
+
+- Unutar klase Produc.cs u Models treba da postavim get;set metode za sva polja koja postoje u bazi
+
+- Vracam se na ProductRepository klasu (u DataLayer) i tu kreiram connection String i metode koje mi se traze
+
+- Kada zavrsim sa DataLayer-om, idem opet na Soluton, desni klik Add -> New Project -> Class Library (.NET Framework) i kreiram BusinessLayer. Klasu unutar BussinesLayer-a rename-ujem na ProductBussines
+
+- Idem desni klik na BussinesLayer pa Add -> Reference. Tu selektujem DataLayer
+
+- Sada prelazim na rad na ovom Windows Form koji sam prvo kreirao (PresentationLayer radim)
+
+-View pa Toolbox da vidim ova sranja koja treba da dodam na form
+
+-PresentationLayer-u za reference dajem i Data i Bussines
